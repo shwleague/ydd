@@ -24,6 +24,6 @@
 <script>
     let div=document.querySelector('div');
     div.ontouchmove=function (e) {
-        this.innerHTML=e.changedTouches.length;
+        this.innerHTML=e.targetTouches.length;
     }
 </script>
